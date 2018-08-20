@@ -1,0 +1,46 @@
+page{
+  background-color: gainsboro;
+}
+
+.mainPage{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.infoPage{
+  align-items: center;
+  height: 70%;
+  width: 90%;
+  background-color: blue;
+}
+
+.filmType{
+  justify-content: center;
+  width: 90%;
+  height: 43%;
+  margin: 5%;
+  margin-bottom: 0rpx;
+  background-color: red;
+}
+
+.applogosec{
+  margin: 7%;
+  color: aqua;
+}
+
+.makeNewBottom{
+  align-items: center;
+  color: red;
+  height: 23%;
+  width: 70%;
+}
+
+.nextStep{
+  width: 500rpx;
+  height: 100rpx;
+  color: royalblue;
+}

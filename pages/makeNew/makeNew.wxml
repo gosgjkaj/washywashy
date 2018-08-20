@@ -1,0 +1,22 @@
+<view class="mainPage">
+
+  <view class="applogosec">
+    <text class="appname">WashyWashy</text>
+  </view>
+
+  <view class="infoPage">
+    <view class="film">
+      <view class="filmType"></view>
+      <view class="targetIso"></view>
+    </view>
+    <view class="developer">
+      <view class="developerType"></view>
+      <view class="concentration"></view>
+    </view>
+  </view>
+
+  <view calss="makeNewBottom">
+    <button class="nextStep" bindtap="startDev">开始</button>
+  </view>
+
+</view>
