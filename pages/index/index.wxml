@@ -1,14 +1,9 @@
 <!--index.wxml-->
-<view class="index">
-
-  <view class="applogo">
-    <text class="appname">WashyWashy</text>
+<view class="container">
+  <view class="lastThree">
+    
   </view>
-
-  <view class="lastThree"></view>
-
-  <view class="bottom">
-    <button class="makeNew" bindtap='makeNew'>新建组合</button>
+  <view class="footer">
+    <button class="submit" hover-class="submit-hover" bindtap='makeNew'>新建组合</button>
   </view>
-
 </view>

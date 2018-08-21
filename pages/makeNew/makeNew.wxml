@@ -1,10 +1,10 @@
-<view class="mainPage">
+<view class="container">
 
-  <view class="applogosec">
-    <text class="appname">WashyWashy</text>
+  <view class="warn" wx:if="{{ifWarn}}">{{title?'':'您还没有选择胶卷'}} {{checkCondition == 2?'':'您还没有选择显影液'}}
   </view>
 
   <view class="infoPage">
+    <text class="askinfo">请给出下列信息</text>
     <view class="film">
       <view class="filmType"></view>
       <view class="targetIso"></view>
@@ -13,10 +13,11 @@
       <view class="developerType"></view>
       <view class="concentration"></view>
     </view>
+    <text class='askinfo'>没有找到你想要的组合？点击这里添加</text>
   </view>
 
-  <view calss="makeNewBottom">
-    <button class="nextStep" bindtap="startDev">开始</button>
+  <view class="footer">
+    <button class="submit" hover-class="submit-hover" bindtap="startDev">选择完毕</button>
   </view>
 
 </view>

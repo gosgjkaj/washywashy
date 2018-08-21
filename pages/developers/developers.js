@@ -1,7 +1,11 @@
-// pages/makeNew/makeNew.js
+// pages/developers/developers.js
 Page({
 
+  /**
+   * 页面的初始数据
+   */
   data: {
+  
   },
 
   /**

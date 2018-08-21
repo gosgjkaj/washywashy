@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/my/my",
-    "pages/makeNew/makeNew"
+    "pages/makeNew/makeNew",
+    "pages/films/films",
+    "pages/developers/developers"
   ],
   "window": {
     "backgroundTextStyle": "light",
