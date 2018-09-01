@@ -1,0 +1,38 @@
+/* components/navigation/navigation.wxss */
+.navigationBar {
+  position: fixed;
+  height: 80rpx;
+  width: 750rpx;
+}
+
+.actionBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.backButton {
+  width: 100rpx;
+  height: 72rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeButton {
+  padding: 18rpx 30rpx 10rpx 10rpx;
+}
+
+.refreshButton {
+  width: 88rpx;
+  height: 72rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-bottom: 0;
+}

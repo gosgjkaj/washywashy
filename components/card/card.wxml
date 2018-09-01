@@ -1,0 +1,7 @@
+<!--components/card/card.wxml-->
+<view class="cardView">
+  <text wx:if="{{title}}">{{title}}</text>
+  <view class="card">
+    <slot></slot>
+  </view>
+</view>

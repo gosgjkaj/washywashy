@@ -1,0 +1,21 @@
+/* components/card/card.wxss */
+.cardView {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 32rpx;
+}
+
+.cardView > text {
+  margin-left: 10rpx;
+  margin-bottom: 20rpx;
+  font-size: 14px;
+  color: #999;
+}
+
+.card {
+  width: 686rpx;
+  background-color: #FFF;
+  border-radius: 8rpx;
+  box-shadow: 0 12rpx 24rpx rgba(114, 114, 114, 0.03);
+}

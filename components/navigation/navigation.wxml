@@ -1,0 +1,24 @@
+<!--components/navigation/navigation.wxml-->
+<cover-view wx:if="{{cover}}" class="navigationBar" style="background-color: {{titleStyle == 'dark'?'#F6F6F6':''}};padding-top: {{8 + statusBarHeight}}px;">
+  <cover-view class="actionBar" style="{{backButton?'':'margin-left: 40rpx;'}}">
+    <cover-view class="backButton" wx:if="{{backButton}}" bindtap="navigateBack">
+      <cover-image src="/icons/back.png" style="height: 36rpx; width: 20rpx;"></cover-image>
+    </cover-view>
+    <cover-view class="title" style="color: {{titleStyle == 'dark'?'#262A51':'#ffffff'}}">{{ title }}</cover-view>
+  </cover-view>
+</cover-view>
+
+<view wx:else class="navigationBar" style="background-color: {{titleStyle == 'dark'?'#F6F6F6':''}}; padding-top: {{8 + statusBarHeight}}px;">
+  <view class="actionBar" style="{{backButton?'':'margin-left: 40rpx;'}}">
+    <view class="backButton" wx:if="{{backButton}}" bindtap="navigateBack">
+      <image src="/icons/back.png" style="height: 36rpx; width: 20rpx;"></image>
+    </view>
+    <view class="homeButton" wx:if="{{homeButton}}" bindtap="toHome">
+      <image src="/icons/home.png" style="height: 36rpx; width: 41rpx;"></image>
+    </view>
+    <view class="title" style="color: {{titleStyle == 'dark'?'#262A51':'#ffffff'}}">{{ title }}</view>
+    <view class="refreshButton" wx:if="{{refreshButton}}" bindtap="refresh" animation="{{refreshAni}}">
+      <image src="/icons/refresh.png" style="height: 36rpx; width: 36rpx;"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,44 @@
+/* components/searchbar/searchbar.wxss */
+.topBar {
+  width: 686rpx;
+  margin-bottom: 32rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 搜索栏 */
+.searchBar {
+  background-color: #FFF;
+  height: 88rpx;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 44rpx;
+  box-shadow: 0 12rpx 24rpx rgba(114, 114, 114, 0.03);
+}
+.searchIcon {
+  margin-left: 30rpx;
+  margin-right: 20rpx;
+  height: 30rpx;
+  width: 30rpx;
+  flex-shrink: 0;
+}
+.deleteIcon {
+  height: 26rpx;
+  width: 26rpx;
+  padding: 30rpx;
+  flex-shrink: 0;
+}
+.searchBar > input {
+  font-size: 16px;
+  color: #353535;
+  margin: 0;
+  flex-grow: 1;
+}
+.searchPlaceHolder {
+  color: #B8B9D3;
+}

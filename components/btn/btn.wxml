@@ -1,0 +1,6 @@
+<!--components/btn/btn.wxml-->
+<form report-submit="true" bindsubmit="submitForm">
+  <button form-type="submit" open-type="{{ot}}" bindgetuserinfo="{{ot=='getUserInfo'?'bindUserInfo':''}}" class="bigButton {{type}}Button" hover-class="{{type}}ButtonHover">
+    <slot></slot>
+  </button>
+</form>

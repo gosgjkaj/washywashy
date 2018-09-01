@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
     "pages/my/my",
     "pages/makeNew/makeNew",
     "pages/films/films",
@@ -9,8 +8,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "backgroundColor": "#f3f3f3",
+    "navigationBarBackgroundColor": "#FAFAFA",
+    "navigationBarTitleText": "冲冲卷",
     "navigationBarTextStyle": "black"
   }
 }

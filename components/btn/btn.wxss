@@ -1,0 +1,42 @@
+/* components/btn/btn.wxss */
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 55rpx;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.bigButton {
+  width: 666rpx;
+  height: 110rpx;
+}
+
+/* 一级按钮 */
+.primaryButton {
+  /* background-color: #6065DA; */
+  background: linear-gradient(to right, #6065DA, #5B75E0);
+  color: #FFF;
+  box-shadow: 0px 10rpx 30rpx rgba(96, 101, 218, 0.2);
+}
+.primaryButtonHover {
+  /* background-color: #565AB8; */
+  background: linear-gradient(to right, #565AB8, #565AB8);
+}
+
+/* 二级按钮 */
+.secondaryButton {
+  background-color: #FAFAFA;
+  color: #555;
+  box-shadow: 0px 10rpx 30rpx rgba(184, 184, 184, 0.2);
+}
+.secondaryButtonHover {
+  background-color: #D3D3D3;
+}
+
+/* 不可用按钮 */
+.disableButton {
+  background-color: #C9C9C9;
+  color: #FFF;
+}

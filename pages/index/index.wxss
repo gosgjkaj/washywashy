@@ -1,34 +1,50 @@
 /**index.wxss**/
-page{
-  height: 100%;
-  background-color: gainsboro;
-}
 
-.container{
-  height: 100%;
-  padding: 0;
-}
-
-.lastThree{
-  width: 90%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  background-color: white;
-}
-
-.footer{
-  width: 686rpx;
+.dev-card {
   padding: 32rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dev-card > image {
+  height: 20rpx;
+  width: 25rpx;
+}
+.dev-info {
+  display: flex;
+  flex-direction: column;
+}
+.dev-tag-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dev-tag {
+  margin-left: 16rpx;
+  font-size: 17px;
+  font-weight: bold;
+  color: #353535;
+}
+.dev-tag-name {
+  font-size: 15px;
+  color: #888;
+}
+.dev-date {
+  margin-top: 10rpx;
+  font-size: 13px;
+  color: #888;
 }
 
-.submit{
-text-align: center;
-padding-top: 4rpx;
-padding-bottom: 4rpx;
-color: white;
-background-color: #5077e0;
+.submit {
+  text-align: center;
+  padding-top: 4rpx;
+  padding-bottom: 4rpx;
+  color: white;
+  /* background-color: #5077e0; */
+  background: linear-gradient(to bottom, #5a7fe7, #5077e0);
 }
 
-.submit-hover{
-  background-color: #5c7aac;
+.submit-hover {
+  background: linear-gradient(to bottom, #5077e0, #5a7fe7);
 }

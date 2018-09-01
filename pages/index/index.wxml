@@ -1,9 +1,26 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="lastThree">
-    
-  </view>
-  <view class="footer">
-    <button class="submit" hover-class="submit-hover" bindtap='makeNew'>新建组合</button>
-  </view>
+  <card>
+    <view class="dev-card">
+      <view class="dev-info">
+        <view class="dev-tag-block">
+          <text class="dev-tag-name">胶卷名</text>
+          <text class="dev-tag">ILFORD HP5</text>
+        </view>
+        <view class="dev-tag-block">
+          <text class="dev-tag-name">显影液</text>
+          <text class="dev-tag">D76</text>
+        </view>
+        <view class="dev-tag-block">
+          <text class="dev-tag-name">感光度</text>
+          <text class="dev-tag">400</text>
+        </view>
+        <view class="dev-date">2018年8月28日 16:24</view>
+      </view>
+      <image src="/icons/enter.png"></image>
+    </view>
+  </card>
+</view>
+<view class="footer">
+  <button class="submit" hover-class="submit-hover" bindtap='makeNew'>新建组合</button>
 </view>

@@ -1,0 +1,9 @@
+<!--components/searchbar/searchbar.wxml-->
+<view class="topBar">
+  <view class="searchBar">
+    <image src="/icons/search.png" class="searchIcon"></image>
+    <input value="{{value}}" placeholder="{{placeholder}}" placeholder-class="searchPlaceHolder" bindinput="search"></input>
+    <image wx:if="{{value}}" src="/icons/delete.png" class="deleteIcon" bindtap="clear"></image>
+  </view>
+  <slot></slot>
+</view>

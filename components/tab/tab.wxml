@@ -1,0 +1,16 @@
+<!--components/tab/tab.wxml-->
+<view class="tabView {{isIPX?'tabViewX':''}}">
+  <view id="index" class="tabBar" bindtap="touchTab">
+    <image wx:if="{{index == 0}}" src="/icons/tab/index-selected.png"></image>
+    <image wx:if="{{index == 1}}" src="/icons/tab/index.png"></image>
+    <text style="{{index == 0 ? 'color: #6065DA;' : ''}}">队列</text>
+  </view>
+  <button wx:if="{{login}}" id="newNotice" bindtap="newNotice" class="newNotice" hover-class="newNoticeHover">
+    <image src="/icons/tab/plus.png"></image>
+  </button>
+  <view id="me" class="tabBar" bindtap="touchTab">
+    <image wx:if="{{index == 1}}" src="/icons/tab/me-selected.png"></image>
+    <image wx:if="{{index == 0}}" src="/icons/tab/me.png"></image>
+    <text style="{{index == 1 ? 'color: #6065DA;' : ''}}">我的</text>
+  </view>
+</view>

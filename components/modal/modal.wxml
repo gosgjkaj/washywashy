@@ -1,0 +1,12 @@
+<!--components/modal/modal.wxml-->
+<view class="background" animation="{{bgAnimation}}" catchtap="cancel">
+  <view class="modal" animation="{{modalAnimation}}" catchtap="touchModal">
+    <view class="title">{{title}}</view>
+    <view class="subtitle">{{subtitle}}</view>
+    <slot></slot>
+    <view class="control">
+      <button class="cancel" catchtap="cancel" hover-class="cancelButtonHover">取消</button>
+      <button wx:if="{{canConfirm}}" class="confirm" style="{{warn?'background-color: #E14848;':''}}" catchtap="confirm" hover-class="confirmButtonHover">{{confirmTitle}}</button>
+    </view>
+  </view>
+</view>
